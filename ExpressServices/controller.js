@@ -28,4 +28,8 @@ router.post("/createData",(req,res)=>{
 return res.status(200).json(People)
 })
 
+router.get("/ec2-test",(req,res)=>{
+  res.send("<h1>API-TEST-AWS-EC2</h1>")
+})
+
 module.exports = router
