@@ -1,4 +1,4 @@
-const { People } = require("../USERS/People")
+const People = require("../USERS/People")
 const UTILS = require("./utils")
 class Model {
   constructor() {}
